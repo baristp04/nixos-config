@@ -10,5 +10,8 @@
     qbittorrent
     zapzap
     cloudflare-warp
+    neofetch
+    python312Full
+    vlc
   ];
 }

@@ -3,5 +3,6 @@
     ./session.nix
     ./packages.nix
     ./git.nix
+    ./zsh.nix
   ];
 }

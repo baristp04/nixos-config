@@ -8,7 +8,7 @@ myGPU = nvmlDeviceGetHandleByIndex(0)
 nvmlDeviceSetGpuLockedClocks(myGPU, 210, 1800)
 
 # Clock offset (0 by default)
-nvmlDeviceSetGpcClkVfOffset(myGPU, 195)
+nvmlDeviceSetGpcClkVfOffset(myGPU, 165)
 
 # Memory Clock offset (0 by default)
 # nvmlDeviceSetMemClkVfOffset(myGPU, MEMOVERCLOCK)

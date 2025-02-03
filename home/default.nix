@@ -1,23 +1,9 @@
-{ config, pkgs, ... }:
-
 {
 
   imports = [
-    ./configurations
+    ./modules
+    ./home-configurations.nix
   ];
 
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-    };
-  };
-
-  home = {
-    username = "btepe";
-    homeDirectory = "/home/btepe";
-    stateVersion = "24.11";
-  };
-
-  programs.home-manager.enable = true;
 
 }
