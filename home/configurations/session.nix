@@ -1,6 +1,6 @@
 {
   home.sessionVariables = {
-    BROWSER = "librewolf";
+    BROWSER = "firefox";
     EDITOR = "vscodium-fhs";
   };
 }

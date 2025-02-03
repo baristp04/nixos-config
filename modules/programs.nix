@@ -18,20 +18,13 @@
 
   environment.systemPackages = with pkgs; [
     ryzenadj
-    mangohud
     bottles
-    mangojuice
     nixfmt-rfc-style
     nixd
     easyeffects
     vscodium.fhs
     librewolf
-    cloudflare-warp
     home-manager
     git
-    spotify
-    protonup-qt
-    discord
-    vesktop
   ];
 }
