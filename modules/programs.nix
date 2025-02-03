@@ -18,7 +18,6 @@
 
   environment.systemPackages = with pkgs; [
     ryzenadj
-    protonup-qt
     mangohud
     bottles
     mangojuice
@@ -26,13 +25,13 @@
     nixd
     easyeffects
     vscodium.fhs
-    vesktop
-    discord
-    protonvpn-gui
     librewolf
-    spotify
     cloudflare-warp
     home-manager
     git
+    spotify
+    protonup-qt
+    discord
+    vesktop
   ];
 }
