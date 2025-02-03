@@ -24,7 +24,6 @@
     mangojuice
     nixfmt-rfc-style
     nixd
-    git
     easyeffects
     vscodium.fhs
     vesktop
