@@ -4,5 +4,6 @@
     ./packages.nix
     ./git.nix
     ./zsh.nix
+    ./xdg.nix
   ];
 }

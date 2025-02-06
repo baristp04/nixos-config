@@ -6,12 +6,13 @@
     discord
     vesktop
     mangohud
+    mangojuice
     jamesdsp
     qbittorrent
     zapzap
     cloudflare-warp
     neofetch
-    python312Full
     vlc
+    jdk17
   ];
 }
