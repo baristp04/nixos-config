@@ -13,5 +13,6 @@
     ./audio.nix
     ./users.nix
     ./locales.nix
+    ./fonts.nix
   ];
 }

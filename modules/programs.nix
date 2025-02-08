@@ -1,6 +1,7 @@
 { pkgs, inputs, ... }:
 {
   programs = {
+    corectrl.enable = true;
     firefox.enable = true;
     direnv.enable = true;
     partition-manager.enable = true;
@@ -27,5 +28,6 @@
     home-manager
     git
     (python3.withPackages (p: with p; [pynvml]))
+    amdctl
   ];
 }

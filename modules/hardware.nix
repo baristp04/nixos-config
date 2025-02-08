@@ -1,6 +1,11 @@
-{lib, inputs, ...}:
+{ lib, inputs, ... }:
 {
-    hardware = {
+  powerManagement.cpufreq.max = 3800000;
+  hardware = {
+    cpu = {
+      amd.ryzen-smu.enable = true;
+      x86.msr.enable = true;
+    };
     bluetooth = {
       enable = true;
       powerOnBoot = true;
