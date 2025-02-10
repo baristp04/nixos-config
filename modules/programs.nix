@@ -29,5 +29,6 @@
     git
     (python3.withPackages (p: with p; [pynvml]))
     amdctl
+    gnome-mines
   ];
 }
