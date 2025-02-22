@@ -14,6 +14,6 @@
     ./users.nix
     ./locales.nix
     ./fonts.nix
-    ./virtualbox.nix
+    ./hyprland.nix
   ];
 }

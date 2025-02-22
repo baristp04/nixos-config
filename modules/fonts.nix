@@ -7,6 +7,7 @@
       ubuntu_font_family
       unifont
       noto-fonts-cjk-sans
+      carlito
     ];
 
     fontconfig = {

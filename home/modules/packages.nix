@@ -14,5 +14,9 @@
     neofetch
     vlc
     jdk17
+    telegram-desktop
+    dmidecode
+    _4d-minesweeper
+    kitty
   ];
 }

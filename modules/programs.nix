@@ -30,5 +30,6 @@
     (python3.withPackages (p: with p; [pynvml]))
     amdctl
     gnome-mines
+    libreoffice-qt6-fresh
   ];
 }
