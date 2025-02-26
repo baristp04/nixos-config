@@ -1,7 +1,10 @@
-{ pkgs, ... }:
+{ pkgs,inputs, ... }:
+let
+  system = "x86_64-linux";
+  pkgsStable = inputs.nixpkgsStable.legacyPackages.${system};
+in
 {
   home.packages = with pkgs; [
-    spotify
     protonup-qt
     discord
     vesktop
@@ -18,5 +21,10 @@
     dmidecode
     _4d-minesweeper
     kitty
+    plasmusic-toolbar
+    spotify
+    spotifyd
+    psst
+    ncspot
   ];
 }

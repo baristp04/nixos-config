@@ -24,7 +24,7 @@
     nixd
     easyeffects
     vscodium.fhs
-    librewolf
+    nvtopPackages.full
     home-manager
     git
     (python3.withPackages (p: with p; [pynvml]))
@@ -32,4 +32,6 @@
     gnome-mines
     libreoffice-qt6-fresh
   ];
+
+  environment.plasma6.excludePackages = with pkgs.kdePackages; [ drkonqi ];
 }

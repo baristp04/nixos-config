@@ -13,6 +13,7 @@
       "wheel"
       "gamemode"
     ];
+    shell = pkgs.zsh;
     packages = with pkgs; [
       kdePackages.kate
       #  thunderbird
