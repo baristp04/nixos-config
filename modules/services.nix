@@ -14,6 +14,11 @@
     enable = true;
   };
 
+  swapDevices = [ {
+    device = "/dev/zram";
+    size = 16*1024;
+  } ];
+
   system = {
     autoUpgrade = {
       enable = true;
@@ -31,6 +36,13 @@
         wantedBy = [ "multi-user.target" ];
         serviceConfig = {
           Type = "oneshot";
+        };
+      };
+    };
+    user = {
+      services = {
+        warp-taskbar = {
+          enable = lib.mkForce false;
         };
       };
     };
