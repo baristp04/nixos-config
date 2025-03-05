@@ -21,10 +21,10 @@ in
     dmidecode
     _4d-minesweeper
     kitty
-    plasmusic-toolbar
     spotify
-    spotifyd
-    psst
-    ncspot
+    pciutils
+    pcsx2
+    wev
+    usbutils
   ];
 }
