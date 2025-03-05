@@ -26,5 +26,6 @@ in
     pcsx2
     wev
     usbutils
+    inputs.zen-browser.packages."${system}".twilight
   ];
 }
