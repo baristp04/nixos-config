@@ -14,11 +14,6 @@
     enable = true;
   };
 
-  swapDevices = [ {
-    device = "/dev/zram";
-    size = 16*1024;
-  } ];
-
   system = {
     autoUpgrade = {
       enable = true;
