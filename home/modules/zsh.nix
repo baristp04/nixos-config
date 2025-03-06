@@ -9,7 +9,7 @@
     fullRebuild = "sudo nixos-rebuild switch --flake ~/System";
     fullRebuildBoot = "sudo nixos-rebuild boot --flake ~/System";
     homeRebuild = "home-manager switch --flake ~/System ";
-    flakeUpdate = "sudo nix flake --upgrade --flake ~/System";
+    flakeUpdate = "sudo nix flake update --flake ~/System";
   };
 in {
   programs = {
