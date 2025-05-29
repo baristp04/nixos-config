@@ -6,5 +6,6 @@
     ./zsh.nix
     ./xdg.nix
     ./kitty.nix
+    ./mangohud.nix
   ];
 }

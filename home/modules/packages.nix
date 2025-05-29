@@ -8,7 +8,6 @@ in
     protonup-qt
     discord
     vesktop
-    mangohud
     mangojuice
     jamesdsp
     qbittorrent
@@ -27,5 +26,18 @@ in
     wev
     usbutils
     inputs.zen-browser.packages."${system}".twilight
+    #(librewolf.override {nativeMessagingHosts = [pkgs.kdePackages.plasma-browser-integration];})
+    kdePackages.kcalc
+    protontricks
+    kdePackages.filelight
+    wget
+    rpcs3
+    anki
+    youtube-music
+    rar
+    mars-mips
+    steamtinkerlaunch
+    nicotine-plus
+    google-chrome
   ];
 }
