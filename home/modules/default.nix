@@ -7,5 +7,6 @@
     ./xdg.nix
     ./kitty.nix
     ./mangohud.nix
+    ./virtualbox.nix
   ];
 }
