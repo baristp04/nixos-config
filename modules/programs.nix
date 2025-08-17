@@ -9,17 +9,20 @@
     kdeconnect.enable = true;
     steam = {
       enable = true;
+      extraCompatPackages = with pkgs; [
+        proton-ge-bin
+      ];
       remotePlay.openFirewall = true;
       dedicatedServer.openFirewall = true;
     };
     gamemode.enable = true;
     gamescope.enable = true;
     zsh.enable = true;
+    hyprland.enable = true;
   };
 
   environment.systemPackages = with pkgs; [
     ryzenadj
-    bottles
     nixfmt-rfc-style
     nixd
     easyeffects
@@ -30,9 +33,14 @@
     (python3.withPackages (p: with p; [pynvml]))
     amdctl
     gnome-mines
-    libreoffice-qt6-fresh
     gparted
+    rivalcfg
+    wine
   ];
 
   environment.plasma6.excludePackages = with pkgs.kdePackages; [ drkonqi ];
+
+  services.udev.packages = with pkgs; [rivalcfg];
 }
+
+

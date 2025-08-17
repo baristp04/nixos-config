@@ -38,6 +38,11 @@ in
     mars-mips
     steamtinkerlaunch
     nicotine-plus
-    google-chrome
+    tauon
+    dopamine
+    picard
+    nero-umu
+    onlyoffice-desktopeditors
+    marksman
   ];
 }

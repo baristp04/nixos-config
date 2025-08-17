@@ -4,9 +4,7 @@
     enable = true;
     systemd.variables = [ "--all" ];
     extraConfig = "
-
-env = AQ_DRM_DEVICES,/dev/dri/card1
-
+env = AQ_DRM_DEVICES,/dev/dri/card2
 $mainMod = SUPER
 bind = $mainMod, Return, exec, kitty
 bind = $mainMod SHIFT, Return, exec, codium
@@ -157,8 +155,8 @@ windowrulev2 = float, class:^(steam)$,title:^(Friends List)$
 # windowrulev2 = workspace: 1, class:^(kitty)$
 # windowrulev2 = workspace: 2, class:^(firefox)$
 # windowrulev2 = workspace: 5, class:^(steam)$
-# windowrulev2 = workspace: 10, class:^(org.telegram.desktop)$
-# windowrulev2 = workspace: 10, class:^(vesktop)$
+# windowrulev2 = workspace: 10, class:^(dopamine)$
+# windowrulev2 = workspace: 10, class:^(discord)$
 general {
     gaps_in = 5
     gaps_out = 10 
