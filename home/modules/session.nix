@@ -1,5 +1,6 @@
 {
   home.sessionVariables = {
+    TERMINAL = "kitty";
     BROWSER = "firefox";
     EDITOR = "vscodium-fhs";
     NIXOS_OZONE_WL = "1";
