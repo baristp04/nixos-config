@@ -19,4 +19,10 @@
       #  thunderbird
     ];
   };
+
+    xdg.terminal-exec.settings = {
+      default = [
+        "kitty.desktop"
+    ];
+  };
 }

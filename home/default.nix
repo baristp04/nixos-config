@@ -1,9 +1,10 @@
-{ config, pkgs, ... }:
+{ config, pkgs,inputs, ... }:
 {
 
   imports = [
     ./modules
     ./hyprland
+    inputs.spicetify-nix.homeManagerModules.default
   ];
 
   nixpkgs = {

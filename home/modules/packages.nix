@@ -20,7 +20,6 @@ in
     dmidecode
     _4d-minesweeper
     kitty
-    spotify
     pciutils
     pcsx2
     wev
@@ -30,9 +29,10 @@ in
     kdePackages.kcalc
     protontricks
     kdePackages.filelight
+    kdePackages.plasma-nm
     wget
     rpcs3
-    anki
+    #anki
     youtube-music
     rar
     mars-mips
@@ -44,5 +44,9 @@ in
     nero-umu
     onlyoffice-desktopeditors
     marksman
+    spicetify-cli
+    openrgb
+    ppsspp
+    soundconverter
   ];
 }

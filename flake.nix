@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgsStable.url = "nixpkgs/nixos-24.11";
+    spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -16,6 +17,7 @@
       self,
       nixpkgs,
       home-manager,
+      spicetify-nix,
       zen-browser, 
       ...
     }@inputs:
@@ -23,7 +25,7 @@
       homeConfigurations = {
         btepe = home-manager.lib.homeManagerConfiguration {
           pkgs = nixpkgs.legacyPackages."x86_64-linux";
-          extraSpecialArgs = { inherit self inputs; };
+          extraSpecialArgs = { inherit inputs; };
           modules = [
             ./home
           ];

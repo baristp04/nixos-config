@@ -4,7 +4,7 @@
 
     packages = with pkgs; [
       noto-fonts
-      ubuntu_font_family
+      ubuntu-classic
       unifont
       noto-fonts-cjk-sans
       carlito

@@ -215,7 +215,7 @@ misc {
     # mako
     # libnotify
     # hyprpaper
-    rofi-wayland
+    rofi
     brightnessctl
     qt5.qtwayland
     qt6.qtwayland
