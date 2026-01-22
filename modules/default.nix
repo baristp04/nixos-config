@@ -15,5 +15,6 @@
     ./locales.nix
     ./fonts.nix
     ./virtualbox.nix
+    ./byedpi.nix
   ];
 }
