@@ -11,9 +11,8 @@ in
     mangojuice
     jamesdsp
     qbittorrent
-    zapzap
     cloudflare-warp
-    neofetch
+    fastfetch
     vlc
     jdk17
     telegram-desktop
@@ -33,7 +32,7 @@ in
     wget
     rpcs3
     #anki
-    youtube-music
+    pear-desktop
     rar
     mars-mips
     steamtinkerlaunch
@@ -48,5 +47,6 @@ in
     openrgb
     ppsspp
     soundconverter
+    proton-vpn
   ];
 }

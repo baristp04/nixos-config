@@ -3,8 +3,12 @@
   programs = {
     git = {
       enable = true;
-      userName = "baristp04";
-      userEmail = "baristepe2004@yandex.com";
+      settings = {
+        user = {
+          name = "baristp04";
+          email = "baristepe2004@yandex.com";
+        };
+      };
     };
   };
 }

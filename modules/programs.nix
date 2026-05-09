@@ -23,7 +23,7 @@
 
   environment.systemPackages = with pkgs; [
     ryzenadj
-    nixfmt-rfc-style
+    nixfmt
     nixd
     easyeffects
     vscodium.fhs
