@@ -1,9 +1,6 @@
 {...}: let
   aliases = {
-    cleanup = "
-      sudo nix-collect-garbage -d
-      nix-collect-garbage -d
-    ";
+    cleanup = " nix-collect-garbage -d";
     rebuild = "sudo nixos-rebuild switch --flake ~/System";
     rebuildBoot = "sudo nixos-rebuild boot --flake ~/System";
     fullRebuild = "sudo nixos-rebuild switch --flake ~/System";

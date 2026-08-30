@@ -5,7 +5,6 @@ let
 in
 {
   home.packages = with pkgs; [
-    protonup-qt
     discord
     vesktop
     mangojuice
@@ -30,7 +29,6 @@ in
     kdePackages.filelight
     kdePackages.plasma-nm
     wget
-    rpcs3
     #anki
     pear-desktop
     rar
@@ -46,7 +44,14 @@ in
     spicetify-cli
     openrgb
     ppsspp
-    soundconverter
     proton-vpn
+    galaxy-buds-client
+    kazam
+    zoom-us
+    appimage-run
+    slack
+    opencode
+    devenv
+    protonup-qt
   ];
 }

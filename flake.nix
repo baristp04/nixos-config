@@ -6,6 +6,7 @@
     nixpkgsStable.url = "nixpkgs/nixos-25.11";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
+    envycontrol.url = "github:bayasdev/envycontrol";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

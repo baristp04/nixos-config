@@ -35,7 +35,7 @@
     services = {
       startup = {
         script = ''
-          ${pkgs.ryzenadj}/bin/ryzenadj -a 28000 -b 32000 -c 30000 -f 90
+          ${pkgs.ryzenadj}/bin/ryzenadj -a 45000 -b 54000 -c 45000 -f 95
         '';
         wantedBy = [ "multi-user.target" ];
         serviceConfig = {

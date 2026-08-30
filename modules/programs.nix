@@ -1,6 +1,7 @@
 { pkgs, inputs, ... }:
 {
   programs = {
+    virt-manager.enable = true;
     corectrl.enable = true;
     firefox.enable = true;
     direnv.enable = true;
@@ -9,9 +10,6 @@
     kdeconnect.enable = true;
     steam = {
       enable = true;
-      extraCompatPackages = with pkgs; [
-        proton-ge-bin
-      ];
       remotePlay.openFirewall = true;
       dedicatedServer.openFirewall = true;
     };
@@ -19,6 +17,9 @@
     gamescope.enable = true;
     zsh.enable = true;
     hyprland.enable = true;
+    java = {
+    enable = true;
+  };
   };
 
   environment.systemPackages = with pkgs; [
@@ -37,6 +38,9 @@
     rivalcfg
     wine
     byedpi
+    inputs.envycontrol
+    virt-manager
+    antigravity-ide
   ];
 
   environment.plasma6.excludePackages = with pkgs.kdePackages; [ drkonqi ];
