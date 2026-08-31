@@ -15,7 +15,7 @@
   home = {
     username = "btepe";
     homeDirectory = "/home/btepe";
-    stateVersion = "25.05";
+    stateVersion = "26.11";
   };
 
   programs.home-manager.enable = true;

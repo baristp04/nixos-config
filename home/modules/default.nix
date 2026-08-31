@@ -8,5 +8,6 @@
     ./kitty.nix
     ./mangohud.nix
     ./spicetify.nix
+    ./services.nix
   ];
 }

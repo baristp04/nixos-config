@@ -53,5 +53,8 @@ in
     opencode
     devenv
     protonup-qt
+    zapzap
+    pkgsStable.ente-auth
+    gcr
   ];
 }
