@@ -16,6 +16,10 @@
     gamemode.enable = true;
     gamescope.enable = true;
     zsh.enable = true;
+<<<<<<< HEAD
+=======
+    hyprland.enable = true;
+>>>>>>> c9671bbea2dcce976457823489092808fef10806
     java = {
     enable = true;
   };

@@ -56,7 +56,10 @@ in
     zapzap
     pkgsStable.ente-auth
     gcr
+<<<<<<< HEAD
     ryubing
     neovim
+=======
+>>>>>>> c9671bbea2dcce976457823489092808fef10806
   ];
 }

@@ -26,7 +26,11 @@
 
   services = {
     xserver = {
+<<<<<<< HEAD
       videoDrivers = ["amdgpu" "nvidia"];
+=======
+      videoDrivers = ["nvidia"];
+>>>>>>> c9671bbea2dcce976457823489092808fef10806
     };
   };
 
@@ -43,4 +47,8 @@
       };
     };
   };
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c9671bbea2dcce976457823489092808fef10806
